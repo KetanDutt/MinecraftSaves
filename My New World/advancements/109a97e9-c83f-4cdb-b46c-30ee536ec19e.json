@@ -1863,7 +1863,8 @@
     "criteria": {
       "minecraft:cow": "2025-05-31 21:53:25 +0530",
       "minecraft:chicken": "2025-05-31 21:53:08 +0530",
-      "minecraft:pig": "2025-06-01 13:38:44 +0530"
+      "minecraft:pig": "2025-06-01 13:38:44 +0530",
+      "minecraft:sheep": "2025-06-05 19:00:10 +0530"
     },
     "done": false
   },
@@ -2410,6 +2411,42 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2025-06-05 18:26:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-06-05 19:02:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-06-05 19:02:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-06-05 19:02:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
     },
     "done": true
   },
