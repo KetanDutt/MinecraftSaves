@@ -391,16 +391,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2025-06-05 15:34:16 +0530",
-      "minecraft:beach": "2025-05-31 13:42:15 +0530",
-      "minecraft:dark_forest": "2025-06-04 15:10:05 +0530",
       "minecraft:forest": "2025-06-04 17:41:49 +0530",
-      "minecraft:mangrove_swamp": "2025-06-01 14:10:55 +0530",
-      "minecraft:sparse_jungle": "2025-06-05 15:41:29 +0530",
       "minecraft:deep_ocean": "2025-05-31 15:48:45 +0530",
-      "minecraft:river": "2025-05-31 15:09:20 +0530",
-      "minecraft:lukewarm_ocean": "2025-06-01 11:54:33 +0530",
-      "minecraft:stony_shore": "2025-06-04 15:18:20 +0530",
+      "minecraft:lush_caves": "2025-06-06 03:18:02 +0530",
       "minecraft:eroded_badlands": "2025-06-05 15:38:23 +0530",
       "minecraft:desert": "2025-06-01 12:02:49 +0530",
       "minecraft:ocean": "2025-05-31 15:06:24 +0530",
@@ -408,11 +401,21 @@
       "minecraft:cherry_grove": "2025-06-04 15:19:01 +0530",
       "minecraft:sunflower_plains": "2025-06-04 15:18:31 +0530",
       "minecraft:birch_forest": "2025-05-31 13:41:46 +0530",
-      "minecraft:savanna": "2025-06-04 17:44:45 +0530",
+      "minecraft:windswept_hills": "2025-06-06 03:24:18 +0530",
       "minecraft:bamboo_jungle": "2025-06-05 15:40:59 +0530",
       "minecraft:windswept_savanna": "2025-06-01 14:09:34 +0530",
-      "minecraft:plains": "2025-06-01 11:53:45 +0530",
-      "minecraft:warm_ocean": "2025-06-01 11:54:55 +0530"
+      "minecraft:warm_ocean": "2025-06-01 11:54:55 +0530",
+      "minecraft:badlands": "2025-06-05 15:34:16 +0530",
+      "minecraft:flower_forest": "2025-06-06 03:24:39 +0530",
+      "minecraft:beach": "2025-05-31 13:42:15 +0530",
+      "minecraft:dark_forest": "2025-06-04 15:10:05 +0530",
+      "minecraft:mangrove_swamp": "2025-06-01 14:10:55 +0530",
+      "minecraft:sparse_jungle": "2025-06-05 15:41:29 +0530",
+      "minecraft:river": "2025-05-31 15:09:20 +0530",
+      "minecraft:lukewarm_ocean": "2025-06-01 11:54:33 +0530",
+      "minecraft:stony_shore": "2025-06-04 15:18:20 +0530",
+      "minecraft:savanna": "2025-06-04 17:44:45 +0530",
+      "minecraft:plains": "2025-06-01 11:53:45 +0530"
     },
     "done": false
   },
@@ -1116,6 +1119,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-05-31 14:27:35 +0530",
       "minecraft:phantom": "2025-06-05 17:54:36 +0530",
+      "minecraft:zombified_piglin": "2025-06-06 01:57:37 +0530",
       "minecraft:witch": "2025-06-04 16:27:38 +0530",
       "minecraft:spider": "2025-05-31 13:53:22 +0530",
       "minecraft:zombie": "2025-05-31 13:52:59 +0530",
@@ -1266,6 +1270,7 @@
     "criteria": {
       "bread": "2025-06-04 16:25:46 +0530",
       "cooked_chicken": "2025-06-01 11:16:00 +0530",
+      "cooked_mutton": "2025-06-06 02:18:06 +0530",
       "cooked_beef": "2025-05-31 14:21:27 +0530"
     },
     "done": false
@@ -2420,21 +2425,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed": {
-    "criteria": {
-      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
       "has_gray_wool": "2025-06-05 19:02:18 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_banner": {
-    "criteria": {
-      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
     },
     "done": true
   },
@@ -2444,9 +2437,147 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_carpet": {
     "criteria": {
       "has_light_gray_wool": "2025-06-05 19:07:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-06-06 03:40:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2025-06-06 01:45:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bordure_indented_banner_pattern": {
+    "criteria": {
+      "has_vines": "2025-06-06 01:45:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-06-06 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2025-06-06 01:45:43 +0530"
     },
     "done": true
   },
