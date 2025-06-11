@@ -391,11 +391,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-06-12 01:33:58 +0530",
       "minecraft:forest": "2025-06-04 17:41:49 +0530",
       "minecraft:deep_ocean": "2025-05-31 15:48:45 +0530",
       "minecraft:lush_caves": "2025-06-06 03:18:02 +0530",
       "minecraft:eroded_badlands": "2025-06-05 15:38:23 +0530",
       "minecraft:desert": "2025-06-01 12:02:49 +0530",
+      "minecraft:windswept_forest": "2025-06-12 00:35:16 +0530",
       "minecraft:ocean": "2025-05-31 15:06:24 +0530",
       "minecraft:jungle": "2025-06-05 15:39:10 +0530",
       "minecraft:cherry_grove": "2025-06-04 15:19:01 +0530",
@@ -409,11 +411,19 @@
       "minecraft:flower_forest": "2025-06-06 03:24:39 +0530",
       "minecraft:beach": "2025-05-31 13:42:15 +0530",
       "minecraft:dark_forest": "2025-06-04 15:10:05 +0530",
+      "minecraft:stony_peaks": "2025-06-12 02:23:33 +0530",
       "minecraft:mangrove_swamp": "2025-06-01 14:10:55 +0530",
       "minecraft:sparse_jungle": "2025-06-05 15:41:29 +0530",
       "minecraft:river": "2025-05-31 15:09:20 +0530",
       "minecraft:lukewarm_ocean": "2025-06-01 11:54:33 +0530",
       "minecraft:stony_shore": "2025-06-04 15:18:20 +0530",
+      "minecraft:dripstone_caves": "2025-06-12 01:19:33 +0530",
+      "minecraft:frozen_peaks": "2025-06-12 00:20:56 +0530",
+      "minecraft:old_growth_birch_forest": "2025-06-12 00:20:54 +0530",
+      "minecraft:deep_dark": "2025-06-12 01:31:04 +0530",
+      "minecraft:grove": "2025-06-12 00:18:57 +0530",
+      "minecraft:swamp": "2025-06-12 00:35:27 +0530",
+      "minecraft:meadow": "2025-06-12 00:18:40 +0530",
       "minecraft:savanna": "2025-06-04 17:44:45 +0530",
       "minecraft:plains": "2025-06-01 11:53:45 +0530"
     },
@@ -1784,7 +1794,9 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2025-05-31 21:44:28 +0530",
-      "minecraft:soul_sand_valley": "2025-05-31 18:45:45 +0530"
+      "minecraft:soul_sand_valley": "2025-05-31 18:45:45 +0530",
+      "minecraft:nether_wastes": "2025-06-12 00:41:41 +0530",
+      "minecraft:warped_forest": "2025-06-12 00:47:11 +0530"
     },
     "done": false
   },
@@ -2811,25 +2823,25 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2025-06-11 14:06:22 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2025-06-11 14:06:24 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
-    "criteria": {
-      "has_lily_of_the_valley": "2025-06-11 16:13:57 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2025-06-11 16:02:35 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-06-11 14:06:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2025-06-11 14:06:24 +0530"
     },
@@ -2841,9 +2853,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-06-11 16:02:35 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2025-06-11 16:13:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-06-11 16:13:57 +0530"
     },
     "done": true
   },
@@ -2853,15 +2877,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/powered_rail": {
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
-      "has_rail": "2025-06-11 14:06:24 +0530"
+      "has_white_tulip": "2025-06-12 01:39:35 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/rail": {
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "has_the_recipe": "2025-06-11 14:06:22 +0530"
+      "has_log": "2025-06-12 01:29:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-12 01:08:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-06-12 02:22:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-12 01:29:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-06-12 01:08:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-12 01:45:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-06-12 01:06:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-06-12 01:39:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-06-12 00:44:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-06-12 02:22:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2025-06-12 01:45:50 +0530"
     },
     "done": true
   },
